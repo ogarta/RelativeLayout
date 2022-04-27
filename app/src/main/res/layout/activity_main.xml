@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xanh"
+        android:background="#FF5722"
+        android:text="Orange"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/xanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xanhla"
+        android:background="#03A9F4"
+        android:text="blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/xanhla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red"
+        android:background="#4CAF50"
+        android:text="green"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignStart="@id/cam"
+        android:background="#FF0000"
+        android:text="red"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/xam"
+        android:layout_below="@id/cam"
+        android:layout_alignStart="@id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gray"
+        android:textSize="30sp"
+        android:background="#5F676A"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:text="pink"
+        android:textSize="30sp" />
+
+</RelativeLayout>
